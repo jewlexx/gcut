@@ -1,0 +1,18 @@
+[package]
+name = "gcut"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+structopt = "0.3"
+nvml-wrapper = "0.8.0"
+nvml-wrapper-sys = "0.6"
+sysinfo = "0.26"
+systemstat = "0.2.0"
+eframe = "0.19.0"
+egui = "0.19.0"
+tracing = "0.1.36"
+tracing-subscriber = "0.3.15"
+parking_lot = "0.12.1"
